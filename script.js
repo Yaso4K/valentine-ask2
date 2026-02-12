@@ -25,7 +25,7 @@ noBtn.addEventListener("mouseover", () => {
     const min = 200;
     const max = 200;
 
-     const distance = Math.random() * (max - min) + min;
+    const distance = Math.random() * (max - min) + min;
     const angle = Math.random() * Math.PI * 2;
 
     const moveX = Math.cos(angle) * distance;
